@@ -139,10 +139,10 @@ async def gen_thumb(videoid, user_id, theme):
         ImageFont.truetype("assets/font.ttf", 25)
         para = textwrap.wrap(title, width=32)
         try:
-            text_w, text_h = draw.textsize(f"ALEXA MUSIC IS PLAYING OP", font=font)
+            text_w, text_h = draw.textsize(f"POWERED BY SIRI", font=font)
             draw.text(
                 ((1280 - text_w) / 2, 30),
-                f"ALEXA MUSIC IS PLAYING OP",
+                f"POWERED BY SIRI",
                 fill="red",
                 font=font,
             )
@@ -151,7 +151,7 @@ async def gen_thumb(videoid, user_id, theme):
             )
             draw.text(
                 ((1280 - text_w) / 2, 80),
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot",
+                f"SIRI Is Music One Of The Most Advanced Telegram Music Bot",
                 fill="green",
                 font=arial,
             )
@@ -298,7 +298,7 @@ async def gen_qthumb(videoid, user_id, theme):
         ImageFont.truetype("assets/font.ttf", 25)
         para = textwrap.wrap(title, width=32)
         try:
-            text_w, text_h = draw.textsize(f"ALEXA ADDED THIS SONG TO QUEUE", font=font)
+            text_w, text_h = draw.textsize(f"SIRI ADDED THIS SONG TO QUEUE", font=font)
             draw.text(
                 ((1280 - text_w) / 2, 30),
                 f"ALEXA ADDED THIS SONG TO QUEUE",
@@ -306,11 +306,11 @@ async def gen_qthumb(videoid, user_id, theme):
                 font=font,
             )
             text_w, text_h = draw.textsize(
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot", font=arial
+                f"SIRI Music One Of The Most Advanced Telegram Music Bot", font=arial
             )
             draw.text(
                 ((1280 - text_w) / 2, 80),
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot",
+                f"SIRI Music One Of The Most Advanced Telegram Music Bot",
                 fill="green",
                 font=arial,
             )
